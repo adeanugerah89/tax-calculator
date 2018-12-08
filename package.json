@@ -1,0 +1,30 @@
+{
+  "name": "Shopee_BE",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0",
+    "chai-integer": "^0.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-promise-router": "^3.0.3",
+    "knex": "^0.15.2",
+    "knex-db-manager": "^0.4.0",
+    "mocha": "^5.2.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.7",
+    "objection": "^1.4.0",
+    "pg": "^7.7.1",
+    "pg-escape": "^0.2.0"
+  }
+}
